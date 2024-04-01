@@ -1,3 +1,5 @@
+//created file using async and await which creates a file called example.txt and writes the message into it.
+
 const fs = require("fs").promises;
 
 const createFile = async () => {
